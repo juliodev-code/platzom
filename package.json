@@ -1,0 +1,33 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de idioma Platzom",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "npx babel src/platzom.js -d dist",
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliocesartic/JavaScriptCourses.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "javascript",
+    "js"
+  ],
+  "author": "Julio Jaramillo <juliocesar0293@gmail.com> (https://twitter.com/cesar9321)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliocesartic/JavaScriptCourses/issues"
+  },
+  "homepage": "https://github.com/juliocesartic/JavaScriptCourses#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
